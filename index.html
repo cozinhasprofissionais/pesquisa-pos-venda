@@ -1,0 +1,1127 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Pesquisa - Sistemas de Pós-Venda</title>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      padding: 20px;
+    }
+    .marca-section {
+      display: none;
+      margin-bottom: 20px;
+      border-left: 3px solid #ccc;
+      padding-left: 15px;
+    }
+    .checkbox-group {
+      margin-bottom: 10px;
+    }
+    .form-section {
+      margin-top: 30px;
+    }
+  </style>
+  <script>
+    function toggleSection(checkbox, id) {
+      const section = document.getElementById(id);
+      section.style.display = checkbox.checked ? 'block' : 'none';
+    }
+  </script>
+</head>
+<body>
+
+  <h1 style="color: #004080; font-size: 32px; margin-bottom: 10px;">TRAMONTINA FARROUPILHA</h1>
+  <div class="form-section">
+    <label for="nome_assistencia"><strong>Nome da Assistência Técnica:</strong></label><br>
+    <input type="text" id="nome_assistencia" name="nome_assistencia" style="width:100%; margin-top: 5px;"><br><br>
+  </div>
+
+
+  
+
+
+<h2>Pesquisa - Sistemas de Pós-Venda de Marcas Atendidas</h2>
+
+<form action="https://formspree.io/f/meokdpvv" method="POST">
+
+  <div class="checkbox-group">
+<label><input type="checkbox" onchange="toggleSection(this, 'oster')"> Oster</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'blackdecker')"> Black+Decker</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'britania')"> Britânia</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'arno')"> Arno</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'electrolux')"> Electrolux</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'mondial')"> Mondial</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'philco')"> Philco</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'cozil')"> Cozil</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'macom')"> Macom</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'rational')"> Rational</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'unox')"> Unox</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'hobart')"> Hobart</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'brastemp')"> Brastemp</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'consul')"> Consul</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'panasonic')"> Panasonic</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'lg')"> LG</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'samsung')"> Samsung</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'cadence')"> Cadence</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'kitchenaid')"> KitchenAid</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'mallory')"> Mallory</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'suggar')"> Suggar</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'nardelli')"> Nardelli</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'agratto')"> Agratto</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'lenoxx')"> Lenoxx</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'wap')"> WAP</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'fischer')"> Fischer</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'venax')"> Venax</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'mueller')"> Mueller</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'philcoprof')"> Philco Professional</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'pratica')"> Prática</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'skymsen')"> Skymsen</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'metalmaq')"> Metalmaq</label><br>
+<label><input type="checkbox" onchange="toggleSection(this, 'outras')"> Outras (especifique): <input type="text" name="outras_marca"></label><br>
+</div>
+
+  <div id="oster" class="marca-section form-section">
+    <h3>Oster</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="oster_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="oster_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="oster_facil" value="Não"> Não</label>
+    <label><input type="radio" name="oster_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="oster_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="oster_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="oster_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="oster_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="oster_offline" value="Não"> Não</label>
+    <label><input type="radio" name="oster_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="oster_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="oster_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="oster_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="oster_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="oster_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="oster_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="blackdecker" class="marca-section form-section">
+    <h3>Black+Decker</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="blackdecker_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="blackdecker_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="blackdecker_facil" value="Não"> Não</label>
+    <label><input type="radio" name="blackdecker_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="blackdecker_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="blackdecker_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="blackdecker_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="blackdecker_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="blackdecker_offline" value="Não"> Não</label>
+    <label><input type="radio" name="blackdecker_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="blackdecker_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="blackdecker_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="blackdecker_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="blackdecker_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="blackdecker_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="blackdecker_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="britania" class="marca-section form-section">
+    <h3>Britânia</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="britania_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="britania_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="britania_facil" value="Não"> Não</label>
+    <label><input type="radio" name="britania_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="britania_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="britania_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="britania_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="britania_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="britania_offline" value="Não"> Não</label>
+    <label><input type="radio" name="britania_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="britania_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="britania_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="britania_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="britania_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="britania_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="britania_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="arno" class="marca-section form-section">
+    <h3>Arno</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="arno_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="arno_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="arno_facil" value="Não"> Não</label>
+    <label><input type="radio" name="arno_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="arno_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="arno_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="arno_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="arno_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="arno_offline" value="Não"> Não</label>
+    <label><input type="radio" name="arno_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="arno_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="arno_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="arno_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="arno_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="arno_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="arno_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="electrolux" class="marca-section form-section">
+    <h3>Electrolux</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="electrolux_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="electrolux_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="electrolux_facil" value="Não"> Não</label>
+    <label><input type="radio" name="electrolux_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="electrolux_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="electrolux_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="electrolux_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="electrolux_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="electrolux_offline" value="Não"> Não</label>
+    <label><input type="radio" name="electrolux_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="electrolux_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="electrolux_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="electrolux_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="electrolux_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="electrolux_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="electrolux_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="mondial" class="marca-section form-section">
+    <h3>Mondial</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="mondial_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="mondial_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="mondial_facil" value="Não"> Não</label>
+    <label><input type="radio" name="mondial_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="mondial_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="mondial_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="mondial_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="mondial_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="mondial_offline" value="Não"> Não</label>
+    <label><input type="radio" name="mondial_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="mondial_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="mondial_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="mondial_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="mondial_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="mondial_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="mondial_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="philco" class="marca-section form-section">
+    <h3>Philco</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="philco_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="philco_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="philco_facil" value="Não"> Não</label>
+    <label><input type="radio" name="philco_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="philco_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="philco_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="philco_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="philco_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="philco_offline" value="Não"> Não</label>
+    <label><input type="radio" name="philco_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="philco_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="philco_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="philco_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="philco_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="philco_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="philco_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="cozil" class="marca-section form-section">
+    <h3>Cozil</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="cozil_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="cozil_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="cozil_facil" value="Não"> Não</label>
+    <label><input type="radio" name="cozil_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="cozil_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="cozil_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="cozil_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="cozil_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="cozil_offline" value="Não"> Não</label>
+    <label><input type="radio" name="cozil_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="cozil_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="cozil_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="cozil_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="cozil_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="cozil_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="cozil_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="macom" class="marca-section form-section">
+    <h3>Macom</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="macom_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="macom_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="macom_facil" value="Não"> Não</label>
+    <label><input type="radio" name="macom_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="macom_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="macom_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="macom_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="macom_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="macom_offline" value="Não"> Não</label>
+    <label><input type="radio" name="macom_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="macom_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="macom_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="macom_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="macom_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="macom_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="macom_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="rational" class="marca-section form-section">
+    <h3>Rational</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="rational_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="rational_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="rational_facil" value="Não"> Não</label>
+    <label><input type="radio" name="rational_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="rational_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="rational_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="rational_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="rational_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="rational_offline" value="Não"> Não</label>
+    <label><input type="radio" name="rational_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="rational_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="rational_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="rational_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="rational_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="rational_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="rational_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="unox" class="marca-section form-section">
+    <h3>Unox</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="unox_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="unox_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="unox_facil" value="Não"> Não</label>
+    <label><input type="radio" name="unox_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="unox_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="unox_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="unox_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="unox_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="unox_offline" value="Não"> Não</label>
+    <label><input type="radio" name="unox_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="unox_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="unox_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="unox_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="unox_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="unox_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="unox_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="hobart" class="marca-section form-section">
+    <h3>Hobart</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="hobart_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="hobart_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="hobart_facil" value="Não"> Não</label>
+    <label><input type="radio" name="hobart_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="hobart_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="hobart_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="hobart_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="hobart_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="hobart_offline" value="Não"> Não</label>
+    <label><input type="radio" name="hobart_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="hobart_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="hobart_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="hobart_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="hobart_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="hobart_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="hobart_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="brastemp" class="marca-section form-section">
+    <h3>Brastemp</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="brastemp_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="brastemp_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="brastemp_facil" value="Não"> Não</label>
+    <label><input type="radio" name="brastemp_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="brastemp_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="brastemp_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="brastemp_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="brastemp_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="brastemp_offline" value="Não"> Não</label>
+    <label><input type="radio" name="brastemp_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="brastemp_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="brastemp_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="brastemp_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="brastemp_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="brastemp_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="brastemp_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="consul" class="marca-section form-section">
+    <h3>Consul</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="consul_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="consul_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="consul_facil" value="Não"> Não</label>
+    <label><input type="radio" name="consul_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="consul_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="consul_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="consul_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="consul_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="consul_offline" value="Não"> Não</label>
+    <label><input type="radio" name="consul_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="consul_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="consul_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="consul_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="consul_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="consul_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="consul_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="panasonic" class="marca-section form-section">
+    <h3>Panasonic</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="panasonic_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="panasonic_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="panasonic_facil" value="Não"> Não</label>
+    <label><input type="radio" name="panasonic_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="panasonic_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="panasonic_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="panasonic_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="panasonic_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="panasonic_offline" value="Não"> Não</label>
+    <label><input type="radio" name="panasonic_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="panasonic_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="panasonic_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="panasonic_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="panasonic_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="panasonic_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="panasonic_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="lg" class="marca-section form-section">
+    <h3>LG</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="lg_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="lg_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="lg_facil" value="Não"> Não</label>
+    <label><input type="radio" name="lg_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="lg_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="lg_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="lg_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="lg_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="lg_offline" value="Não"> Não</label>
+    <label><input type="radio" name="lg_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="lg_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="lg_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="lg_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="lg_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="lg_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="lg_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="samsung" class="marca-section form-section">
+    <h3>Samsung</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="samsung_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="samsung_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="samsung_facil" value="Não"> Não</label>
+    <label><input type="radio" name="samsung_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="samsung_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="samsung_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="samsung_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="samsung_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="samsung_offline" value="Não"> Não</label>
+    <label><input type="radio" name="samsung_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="samsung_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="samsung_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="samsung_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="samsung_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="samsung_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="samsung_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="cadence" class="marca-section form-section">
+    <h3>Cadence</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="cadence_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="cadence_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="cadence_facil" value="Não"> Não</label>
+    <label><input type="radio" name="cadence_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="cadence_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="cadence_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="cadence_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="cadence_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="cadence_offline" value="Não"> Não</label>
+    <label><input type="radio" name="cadence_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="cadence_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="cadence_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="cadence_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="cadence_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="cadence_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="cadence_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="kitchenaid" class="marca-section form-section">
+    <h3>KitchenAid</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="kitchenaid_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="kitchenaid_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="kitchenaid_facil" value="Não"> Não</label>
+    <label><input type="radio" name="kitchenaid_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="kitchenaid_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="kitchenaid_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="kitchenaid_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="kitchenaid_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="kitchenaid_offline" value="Não"> Não</label>
+    <label><input type="radio" name="kitchenaid_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="kitchenaid_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="kitchenaid_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="kitchenaid_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="kitchenaid_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="kitchenaid_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="kitchenaid_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="mallory" class="marca-section form-section">
+    <h3>Mallory</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="mallory_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="mallory_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="mallory_facil" value="Não"> Não</label>
+    <label><input type="radio" name="mallory_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="mallory_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="mallory_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="mallory_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="mallory_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="mallory_offline" value="Não"> Não</label>
+    <label><input type="radio" name="mallory_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="mallory_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="mallory_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="mallory_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="mallory_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="mallory_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="mallory_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="suggar" class="marca-section form-section">
+    <h3>Suggar</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="suggar_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="suggar_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="suggar_facil" value="Não"> Não</label>
+    <label><input type="radio" name="suggar_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="suggar_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="suggar_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="suggar_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="suggar_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="suggar_offline" value="Não"> Não</label>
+    <label><input type="radio" name="suggar_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="suggar_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="suggar_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="suggar_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="suggar_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="suggar_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="suggar_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="nardelli" class="marca-section form-section">
+    <h3>Nardelli</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="nardelli_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="nardelli_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="nardelli_facil" value="Não"> Não</label>
+    <label><input type="radio" name="nardelli_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="nardelli_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="nardelli_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="nardelli_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="nardelli_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="nardelli_offline" value="Não"> Não</label>
+    <label><input type="radio" name="nardelli_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="nardelli_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="nardelli_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="nardelli_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="nardelli_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="nardelli_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="nardelli_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="agratto" class="marca-section form-section">
+    <h3>Agratto</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="agratto_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="agratto_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="agratto_facil" value="Não"> Não</label>
+    <label><input type="radio" name="agratto_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="agratto_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="agratto_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="agratto_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="agratto_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="agratto_offline" value="Não"> Não</label>
+    <label><input type="radio" name="agratto_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="agratto_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="agratto_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="agratto_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="agratto_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="agratto_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="agratto_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="lenoxx" class="marca-section form-section">
+    <h3>Lenoxx</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="lenoxx_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="lenoxx_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="lenoxx_facil" value="Não"> Não</label>
+    <label><input type="radio" name="lenoxx_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="lenoxx_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="lenoxx_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="lenoxx_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="lenoxx_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="lenoxx_offline" value="Não"> Não</label>
+    <label><input type="radio" name="lenoxx_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="lenoxx_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="lenoxx_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="lenoxx_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="lenoxx_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="lenoxx_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="lenoxx_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="wap" class="marca-section form-section">
+    <h3>WAP</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="wap_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="wap_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="wap_facil" value="Não"> Não</label>
+    <label><input type="radio" name="wap_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="wap_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="wap_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="wap_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="wap_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="wap_offline" value="Não"> Não</label>
+    <label><input type="radio" name="wap_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="wap_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="wap_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="wap_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="wap_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="wap_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="wap_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="fischer" class="marca-section form-section">
+    <h3>Fischer</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="fischer_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="fischer_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="fischer_facil" value="Não"> Não</label>
+    <label><input type="radio" name="fischer_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="fischer_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="fischer_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="fischer_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="fischer_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="fischer_offline" value="Não"> Não</label>
+    <label><input type="radio" name="fischer_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="fischer_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="fischer_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="fischer_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="fischer_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="fischer_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="fischer_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="venax" class="marca-section form-section">
+    <h3>Venax</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="venax_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="venax_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="venax_facil" value="Não"> Não</label>
+    <label><input type="radio" name="venax_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="venax_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="venax_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="venax_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="venax_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="venax_offline" value="Não"> Não</label>
+    <label><input type="radio" name="venax_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="venax_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="venax_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="venax_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="venax_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="venax_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="venax_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="mueller" class="marca-section form-section">
+    <h3>Mueller</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="mueller_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="mueller_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="mueller_facil" value="Não"> Não</label>
+    <label><input type="radio" name="mueller_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="mueller_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="mueller_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="mueller_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="mueller_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="mueller_offline" value="Não"> Não</label>
+    <label><input type="radio" name="mueller_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="mueller_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="mueller_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="mueller_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="mueller_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="mueller_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="mueller_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="philcoprof" class="marca-section form-section">
+    <h3>Philco Professional</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="philcoprof_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="philcoprof_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="philcoprof_facil" value="Não"> Não</label>
+    <label><input type="radio" name="philcoprof_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="philcoprof_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="philcoprof_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="philcoprof_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="philcoprof_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="philcoprof_offline" value="Não"> Não</label>
+    <label><input type="radio" name="philcoprof_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="philcoprof_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="philcoprof_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="philcoprof_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="philcoprof_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="philcoprof_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="philcoprof_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="pratica" class="marca-section form-section">
+    <h3>Prática</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="pratica_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="pratica_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="pratica_facil" value="Não"> Não</label>
+    <label><input type="radio" name="pratica_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="pratica_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="pratica_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="pratica_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="pratica_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="pratica_offline" value="Não"> Não</label>
+    <label><input type="radio" name="pratica_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="pratica_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="pratica_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="pratica_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="pratica_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="pratica_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="pratica_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="skymsen" class="marca-section form-section">
+    <h3>Skymsen</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="skymsen_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="skymsen_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="skymsen_facil" value="Não"> Não</label>
+    <label><input type="radio" name="skymsen_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="skymsen_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="skymsen_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="skymsen_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="skymsen_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="skymsen_offline" value="Não"> Não</label>
+    <label><input type="radio" name="skymsen_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="skymsen_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="skymsen_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="skymsen_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="skymsen_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="skymsen_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="skymsen_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="metalmaq" class="marca-section form-section">
+    <h3>Metalmaq</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="metalmaq_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="metalmaq_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="metalmaq_facil" value="Não"> Não</label>
+    <label><input type="radio" name="metalmaq_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="metalmaq_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="metalmaq_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="metalmaq_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="metalmaq_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="metalmaq_offline" value="Não"> Não</label>
+    <label><input type="radio" name="metalmaq_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="metalmaq_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="metalmaq_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="metalmaq_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="metalmaq_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="metalmaq_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="metalmaq_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div id="outras" class="marca-section form-section">
+    <h3>Outras (especifique)</h3>
+    <label>1. Nome do sistema/aplicativo utilizado pela marca:</label><br>
+    <input type="text" name="outras_sistema" style="width:100%"><br><br>
+
+    <label>2. O sistema é de fácil utilização?</label><br>
+    <label><input type="radio" name="outras_facil" value="Sim"> Sim</label>
+    <label><input type="radio" name="outras_facil" value="Não"> Não</label>
+    <label><input type="radio" name="outras_facil" value="Razoável"> Razoável</label><br><br>
+
+    <label>3. Permite o preenchimento completo das informações de manutenção?</label><br>
+    <label><input type="radio" name="outras_preenchimento" value="Sim"> Sim</label>
+    <label><input type="radio" name="outras_preenchimento" value="Parcialmente"> Parcialmente</label>
+    <label><input type="radio" name="outras_preenchimento" value="Não"> Não</label><br><br>
+
+    <label>4. Possui versão offline funcional?</label><br>
+    <label><input type="radio" name="outras_offline" value="Sim"> Sim</label>
+    <label><input type="radio" name="outras_offline" value="Não"> Não</label>
+    <label><input type="radio" name="outras_offline" value="Apenas leitura"> Apenas leitura</label><br><br>
+
+    <label>5. Há integração automática com a marca (relatórios, fotos, peças)?</label><br>
+    <label><input type="radio" name="outras_integracao" value="Sim"> Sim</label>
+    <label><input type="radio" name="outras_integracao" value="Não"> Não</label>
+    <label><input type="radio" name="outras_integracao" value="Parcialmente"> Parcialmente</label><br><br>
+
+    <label>6. O aplicativo/sistema apresenta instabilidade ou falhas frequentes?</label><br>
+    <label><input type="radio" name="outras_falhas" value="Sim"> Sim</label>
+    <label><input type="radio" name="outras_falhas" value="Não"> Não</label>
+    <label><input type="radio" name="outras_falhas" value="Ocasionalmente"> Ocasionalmente</label><br>
+  </div>
+    
+  <div class="form-section">
+    <h3>7. Comparando com os demais sistemas que você utiliza, qual sua percepção geral sobre esse?</h3>
+    <textarea name="comparacao_geral" rows="4" style="width:100%"></textarea>
+  </div>
+
+  <div class="form-section">
+    <h3>3. Feedback Geral</h3>
+    <label>Na sua opinião, qual marca possui o melhor sistema de pós-venda atualmente? Por quê?</label><br>
+    <textarea name="feedback_melhor_marca" rows="4" style="width:100%"></textarea>
+  </div>
+
+  
+  <div class="form-section" style="margin-top: 30px;">
+    <p style="font-size: 18px; color: #004080;"><strong>Obrigado por colaborar com nossa pesquisa! Sua opinião é muito importante para nós.</strong></p>
+  </div>
+<br><button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>
